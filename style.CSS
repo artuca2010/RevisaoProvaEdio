@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(96, 96, 96);
+    margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b2a2a;
+  color: white;
+  padding: 15px 30px;
+  height: 5rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+#NavIcon {
+    width: 5rem;
+    justify-content: start;
+    margin-right: 38rem;
+    height: 5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #86d0e1;
+}
+
+/*-- MAIN SECTIONS ------///------*/
+.MainDisplaySections {
+    width: 100rem;
+    background-color: purple;
+}
