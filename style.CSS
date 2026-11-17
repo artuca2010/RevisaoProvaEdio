@@ -36,7 +36,21 @@ header {
 }
 
 /*-- MAIN SECTIONS ------///------*/
-.MainDisplaySections {
-    width: 100rem;
+#ImageSections {
+    height: 15rem;
     background-color: purple;
+    display: flex;
+    justify-content: start;
+}
+#DescpSections {
+    
+}
+.Images {
+    width: 8rem;
+    height: 12rem;
+    border-radius: 15%;
+    border-width: 20px;
+    display: flex;
+    padding: 20px;
+    border-color: whitesmoke;
 }
